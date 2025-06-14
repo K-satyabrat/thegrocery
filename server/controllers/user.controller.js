@@ -10,7 +10,7 @@ import generateOtp from "../utils/generateOtp.js";
 import { forgotPasswordTamplate } from "../utils/forgotPasswordTamplate.js";
 configDotenv();
 
-//🔐 user registration
+// user registration
 export async function registerUser(req, res) {
   try {
     const { name, email, password } = req.body;
